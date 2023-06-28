@@ -23,11 +23,11 @@ void loop() {
     Serial.println(digitalRead(buttonPin1));
 
   // 如果按鈕被按下
-  // if (buttonState == HIGH) {
-  //   // 點亮LED
-  //   digitalWrite(ledPin, HIGH);
-  // } else {
-  //   // 熄滅LED
-  //   digitalWrite(ledPin, LOW);
-  // }
+  if (buttonState == HIGH) {
+    // 點亮LED
+    digitalWrite(ledPin, HIGH);
+  } else {
+    // 熄滅LED
+    digitalWrite(ledPin, LOW);
+  }
 }
